@@ -3,7 +3,7 @@
 <head>
     <%- include ("../partials/header.ejs") %>
     <script type="text/javascript" src="https://deloitteconsultingpdc-dev-ed.my.salesforce.com/support/api/53.0/lightning/opencti_min.js"></script>
-    <script type="text/javascript" src="../partials/softphoneEvents.js"></script>
+    <script type="text/javascript" src="scripts/softphoneEvents.js"></script>
 </head>
 
 <body>
@@ -20,7 +20,7 @@
         <label for="txtPassword">Username</label>
         <input type="password" id="txtPassword"></input>
         <br>
-        <button id="btnLogin">Login</button>
+        <button id="btnLogin" onclick="onSuccessfulLogin()">Login</button>
     </div>
 
 
